@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "*": ["./*"],
+            "src/*": ["./src/*"]
+        },
+        "outDir": "type-src/",
+        "typeRoots": [
+            "./types",
+            "./node_modules/@types"
+        ],
+        "types": [
+            "node",
+            "@wdio/sync",
+            "chai",
+            "@wdio/cucumber-framework",
+            "reflect-metadata"
+        ],
+        "target": "es5",
+        "lib": ["es2018", "dom"],
+        "experimentalDecorators": true
+    },
+    "compileOnSave": false,
+    "include": [
+        "./src/**/*.ts",
+        "./src/**/**/**/*.ts",
+        "./src/pages/app/motorista/*.ts",
+    ]
+}

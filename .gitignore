@@ -1,0 +1,16 @@
+.vscode
+#.env
+sc-ephemeral-tunnel.log
+#package-lock.json
+#support/errorShots/*
+node_modules
+support/context/selenium-logs/*
+#conf/local.conf.js
+npm-debug.log
+#allure-results/*
+reports/.DS_Store
+#newman/*
+type-src
+#allure-report/*
+#support/util/gravados/*
+appium.log
